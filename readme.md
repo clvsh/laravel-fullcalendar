@@ -6,16 +6,24 @@
 
 This is a simple helper package to make generating [http://fullcalendar.io](http://fullcalendar.io) in Laravel apps easier.
 
+## Compatibility
+
+| Package | Laravel | PHP  |
+|---------|---------|------|
+| 11.x    | 11.x    | 8.2+ |
+
+Package major versions follow the Laravel major version they support.
+
 ## Installing
 Require the package with composer using the following command:
 
-    composer require maddhatter/laravel-fullcalendar
+    composer require munezaclovis/laravel-fullcalendar:^11.0
 
 Or add the following to your composer.json's require section and `composer update`
 
 ```json
 "require": {
-	"maddhatter/laravel-fullcalendar": "~1.0"
+	"munezaclovis/laravel-fullcalendar": "^11.0"
 }
 ```
 
